@@ -20,7 +20,7 @@ Host the Gradio app on a suitable platform like Google Colab or Hugging Face Spa
 Test the prototype with diverse images to validate caption accuracy.
 
 ### PROGRAM:
-
+```
 # Import necessary libraries
 from transformers import BlipProcessor, BlipForConditionalGeneration
 import gradio as gr
@@ -52,7 +52,7 @@ iface = gr.Interface(
 
 # Launch the Gradio app
 iface.launch()
-
+```
 ### Output
 
 ![Screenshot (268)](https://github.com/user-attachments/assets/7a177bbb-2aad-458e-aa94-2038415e6e76)
